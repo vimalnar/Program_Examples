@@ -1,0 +1,16 @@
+To create a basic calculator:
+  1. Start by taking two numbers from the user.
+  2. Ask the user what operation they want to perform: add, subtract, multiply, or divide.
+  3. Based on the user's choice, do the following:
+     - If the user chooses 'add', add the two numbers.
+     - If 'subtract', then subtract the second number from the first.
+     - If 'multiply', multiply the two numbers.
+     - If 'divide', divide the first number by the second.
+  4. Show the result to the user.
+  5. Ask if they want to do another calculation. If yes, go back to step 1.
+
+Error Handling:
+  - If the user inputs something other than a number in steps 1 and 2, ask them to enter a valid number.
+  - In the case of division, if the second number is zero, inform the user that division by zero is not possible and ask for a new number.
+  - If the user's choice of operation is not one of the four specified, inform them of the valid options and ask to choose again.
+  - If the user wants to exit the program, provide an option to do so at any point.

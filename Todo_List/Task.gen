@@ -1,0 +1,9 @@
+3. Task Class
+Purpose:
+The Task class represents an individual task in the to-do list. Each task has its own properties and behaviors that define its state and characteristics.
+
+Actions and Activities:
+
+Store Properties: Maintains properties like description, dueDate, and status.
+Update Properties: Allows for changing the details of the task, such as updating the description or changing the due date.
+Status Management: Can include methods to mark the task as complete, pending, or in progress, depending on the application's needs.

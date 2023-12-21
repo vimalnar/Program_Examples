@@ -1,0 +1,11 @@
+1. Main Class
+Purpose:
+The Main class serves as the entry point of the application. It orchestrates the overall flow, including initiating user interactions, processing user commands, and managing the interaction with the TaskManager class.
+
+Actions and Activities:
+
+Initialize TaskManager: Creates an instance of TaskManager to handle tasks.
+User Interaction Loop: Maintains a loop to continuously receive user inputs (like add, remove, display tasks, or exit).
+Process Commands: Based on user input, calls the appropriate methods in the TaskManager class (e.g., adding or removing tasks).
+Display Feedback: Shows the outcome of user commands, including success messages or error notifications.
+Exit Application: Ends the application loop and closes the program when the user decides to exit.

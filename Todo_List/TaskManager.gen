@@ -1,0 +1,11 @@
+2. TaskManager Class
+Purpose:
+The TaskManager class is responsible for managing the collection of tasks. It handles the logic for adding, removing, and displaying tasks within the to-do list.
+
+Actions and Activities:
+
+Manage Tasks: Holds a list of Task objects, representing the current to-do list.
+Add Task: Adds a new Task to the list, taking in details like description and due date.
+Remove Task: Deletes a task from the list based on a specified index or identifier.
+Display Tasks: Lists all current tasks, showing their details and statuses.
+Error Handling: Includes checks and validations for task-related operations, like ensuring valid indices for task removal.
